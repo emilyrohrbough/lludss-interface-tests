@@ -1,4 +1,4 @@
-describe('The catalog services', () => {
+describe.skip('The catalog services', () => {
   describe('Requesting an item', () => {
     it('should redirect to the login page for unauthenticated users', () => {
       cy.visit('/catalog/rug01:002243161')
